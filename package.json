@@ -1,0 +1,29 @@
+{
+  "name": "plataforma-eventos-api",
+  "version": "1.0.0",
+  "description": "API REST para Plataforma de Gestión de Eventos e Inscripciones - Coderhouse Backend II",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "events",
+    "api",
+    "coderhouse",
+    "backend"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
